@@ -1,0 +1,133 @@
+/* time 28:20 */
+/* RGB(102, 0, 204) */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+}
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+  font-family: "poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(18, 18, 62);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  text-decoration: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+
+  color: white;
+}
+nav ul li a:hover {
+  text-decoration: none;
+  color: rgb(153, 153, 226);
+  font-size: 1.04rem;
+}
+main hr {
+  border: 0;
+  background: #9c97f1;
+  height: 1.2px;
+  margin: 60px 84px;
+}
+.left {
+  font-size: 1 rem;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: 140px 0;
+}
+.firstSection > div {
+  width: 33%;
+}
+.leftSection {
+  font-size: 3rem;
+}
+.rightSection img {
+  width: 80%;
+  margin: 50px, 0;
+}
+.purple {
+  color: rgb(170, 107, 228);
+}
+#element {
+  color: rgb(170, 107, 228);
+}
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+.secondSection h1 {
+  font-size: 0.19rem;
+}
+.text-gray {
+  color: gray;
+}
+
+.secondSection li {
+  margin-top: 5px;
+  margin-left: 4rem;
+}
+.skill {
+  width: 5.2rem;
+  height: 5rem;
+  user-select: none;
+  background: linear-gradient(to right, rgb(170, 107, 228), rgb(53, 49, 94));
+  border-radius: 5px;
+}
+.skill:hover {
+  color: purple;
+
+  transition: 1s ease;
+}
+.skillHead {
+  font-size: 3rem;
+  position: relative;
+  left: 5rem;
+  margin-bottom: 3rem;
+}
+.secondSection {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+  position: relative;
+  left: 10rem;
+}
+.gitimg {
+  height: 2rem;
+  width: 4rem;
+  position: relative;
+  left: 5vw;
+}
+.fbimg {
+  height: 2rem;
+
+  width: 2rem;
+  position: relative;
+  left: 5vw;
+}
+.linkedinimg {
+  height: 2rem;
+
+  width: 2rem;
+  position: relative;
+  left: 5vw;
+}

@@ -1,0 +1,89 @@
+<!-- time 28:20 -->
+<!-- visit teh code with harry youtube channel and start copying the code video name-personal portfolio website using html css and javascript -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abhishek - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Poppins:wght@300;500&family=Roboto:wght@100;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Abhishek's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+
+            <li><a href="/">About</a></li>
+            <li><a href="/">Contact Me</a></li>
+            <li><a href="/">services</a></li>
+            <li><a href="/">Projects</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Abhishek</span>
+          <div>and I am a passionate</div>
+          <!-- <div>web Developer.</div> -->
+          <span id="element"></span>
+        </div>
+        <div class="rightSection">
+          <img src="developer.webp" alt="" />
+        </div>
+      </section>
+      <hr />
+      <p class="skillHead">My Skills</p>
+
+      <section class="secondSection">
+        
+        <div class="skill">node js</div>
+        <div class="skill">express js</div>
+        <div class="skill">next js</div>
+        <div class="skill">Data structures</div>
+        <div class="skill">Mongodb</div>
+        <div class="skill">Github</div>
+      </section>
+      <hr />
+
+      <a href="https://github.com/abhishekdahal-397">
+        <img
+          class="gitimg"
+          src="./githubicon-removebg-preview.png"
+          alt="Image Icon"
+        />
+      </a>
+      <a href="https://www.facebook.com/profile.php?id=61552427313054">
+        <img
+          class="fbimg"
+          src="./fbicon-removebg-preview.png"
+          alt="Image Icon"
+        />
+      </a>
+      <a href="">
+        <img
+          class="linkedinimg"
+          src="./linkedinicon.jpg"
+          alt="Image Icon"
+        />
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Graphic Designer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+  <script src="script.js"></script>
+</html>
